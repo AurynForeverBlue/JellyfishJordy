@@ -1,0 +1,43 @@
+@import url("./app.css");
+
+#leaderb {
+    padding: 21px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    box-shadow: 0 5px 7px 0px rgb(19, 19, 19);
+    border-collapse: collapse;
+    width: 80%;
+    color: white;
+    text-align: left;
+    margin: auto;
+}
+
+#leaderb th{
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(26, 86, 141);
+}
+
+#leaderb th td,
+#leaderb th{
+    border: 1px solid rgba(221, 221, 221, 0);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#leaderb tbody td {
+    padding: 8px;
+}
+
+#leaderb tr{
+    background-color: rgb(26, 26, 26);
+}
+
+#leaderb tr:nth-child(even) {
+    background-color: rgb(31, 31, 31);
+}
+
+.playerScore {
+    background-color: rgb(228, 228, 228) !important;
+    color: black !important;
+}

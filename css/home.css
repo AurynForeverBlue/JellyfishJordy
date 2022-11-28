@@ -1,0 +1,29 @@
+@import url("./app.css");
+
+#developers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+}
+
+.nerd {
+    width: 85%;
+    margin: auto;
+    transition: all 0.5s;
+    border-radius: 5px;
+    padding: 21px;
+}
+
+.nerd:hover {
+    background-color: rgb(29, 29, 29);
+    box-shadow: 0 10px 10px 0px rgb(19, 19, 19);
+}
+
+.nerd img {
+    border-radius: 50%;
+    width: 45%;
+}
+
+.nerd h3 {
+    margin: 10px;
+}

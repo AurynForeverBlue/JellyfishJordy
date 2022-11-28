@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url("../media/page/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:  rgb(40, 70, 105);
+    scroll-behavior: smooth;
+}
+
+.card {
+    width: 69vw;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.darkmode {
+    background-color: rgb(42, 42, 42);
+    box-shadow: 0 5px 7px 0px rgb(19, 19, 19);
+    color: white;
+}
+
+.card h1 { color: white; margin-bottom: 20px;}
+.card h1:hover { color: white; }
+.card h2 { color: white; }
+
+a { color:white; text-decoration: none; }
+a:hover { color: rgb(217, 217, 217); text-decoration: none; }
+
+.t-red { color:red; margin-top: 5px; }
+
+/* -------------------------- */
+
+.btn {
+	padding: 14px 12px;
+	text-align: center;
+	display: inline-block;
+	margin: 4px 4px;
+	border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.btn:hover,
+.btn:active {
+    cursor: pointer;
+    position: relative;
+}
+
+.btn-blue {
+    background-color: rgb(65, 95, 159);
+    box-shadow: 0px 4px 0px 0px rgb(75, 100, 169);
+}
+
+.btn-blue:hover {
+    background-color: rgb(95, 125, 189);
+    box-shadow: 0px 3px 0px 0px rgb(75, 100, 169);
+}
+
+.btn-blue:active {
+    background-color: rgb(95, 125, 189);
+    box-shadow: 0px 3px 0px 0px rgb(75, 100, 169);
+}
+
+.btn-green {
+    background-color: rgb(78, 169, 75);
+    box-shadow: 0px 4px 0px 0px rgb(68, 159, 65);
+}
+
+.btn-green:hover {
+    background-color: rgb(98, 189, 95);
+    box-shadow: 0px 3px 0px 0px rgb(78, 169, 75);
+}
+
+.btn-green:active {
+    background-color: rgb(98, 189, 95);
+    box-shadow: 0px 0px 0px 0px rgba(63, 91, 161, 0);
+}
+
+.btn-red {
+    background-color: rgb(159, 65, 65);
+    box-shadow: 0px 4px 0px 0px rgb(169, 75, 75);
+}
+
+.btn-red:hover {
+    background-color: rgb(189, 95, 95);
+    box-shadow: 0px 3px 0px 0px rgb(169, 75, 75);
+}
+
+.btn-red:active {
+    background-color: rgb(189, 95, 95);
+    box-shadow: 0px 0px 0px 0px rgba(63, 91, 161, 0);
+}
+
+/* ------------------------- */
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 90vw !important;
+    }
+}
