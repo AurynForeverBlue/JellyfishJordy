@@ -28,7 +28,7 @@
 </head>
 <body>
     <?php include('./components/header.php') ?>
-
+    <h2>falko is cool</h2>
     <div class="card darkmode">
         <h2>Over Ons</h2>
         <div id="developers">
